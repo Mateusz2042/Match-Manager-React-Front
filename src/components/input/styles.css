@@ -1,0 +1,11 @@
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  width: 30%;
+}
+
+input:focus {
+  border-bottom: 1px solid #66a3ff;
+  outline: none;
+}
