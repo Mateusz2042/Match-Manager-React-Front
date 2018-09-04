@@ -2,7 +2,8 @@ import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import HomeComponent from '../containers/home';
 import NavBar from '../components/navbar';
-import MembersScenes from './scenes/members';
+import PlayersScenes from './scenes/players';
+import TeamsScenes from './scenes/teams';
 import MatchesScenes from './scenes/matches';
 
 const RouterComponent = () => (
@@ -10,7 +11,8 @@ const RouterComponent = () => (
     <Fragment>
       <NavBar />
       <Route exact path="/" component={HomeComponent} />
-      {MembersScenes()}
+      {PlayersScenes()}
+      {TeamsScenes()}
       {MatchesScenes()}
     </Fragment>
   </Router>

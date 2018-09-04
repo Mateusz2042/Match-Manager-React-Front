@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './styles.css';
 import Input from '../../../components/input';
 
-class CreateMember extends Component {
+class CreatePlayer extends Component {
   state = {
     firstName: '',
     lastName: '',
@@ -48,4 +48,4 @@ class CreateMember extends Component {
   }
 }
 
-export default CreateMember;
+export default CreatePlayer;

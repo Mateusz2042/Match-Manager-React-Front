@@ -4,7 +4,7 @@ import './styles.css';
 import Button from '../../../components/button';
 import style from '../../../components/button/style';
 
-class ListMembers extends Component {
+class ListPlayers extends Component {
   componentDidMount() {
     console.log('');
   }
@@ -71,4 +71,4 @@ class ListMembers extends Component {
   }
 }
 
-export default ListMembers;
+export default ListPlayers;

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import './styles.css';
 
-class EditMember extends Component {
+class EditPlayer extends Component {
   componentDidMount() {
     console.log('');
   }
@@ -14,4 +14,4 @@ class EditMember extends Component {
   }
 }
 
-export default EditMember;
+export default EditPlayer;

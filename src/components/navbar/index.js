@@ -20,7 +20,10 @@ class Navbar extends Component {
           <Link to="/"><NavTitle id="MatchManager" title="MatchManager" htmlFor="MatchManager" /></Link>
         </div>
         <div className="div-links">
-          <Link className="links" to="/members-list">Members</Link>
+          <Link className="links" to="/players-list">Players</Link>
+          {'  '}
+          <Sep />
+          <Link className="links" to="/teams-list">Teams</Link>
           {'  '}
           <Sep />
           <Link className="links" to="/matches-list">Matches</Link>
