@@ -5,3 +5,7 @@ button {
   margin-bottom: 10px;
   border-radius: 6px;
 }
+
+button:focus {
+  outline: none;
+}

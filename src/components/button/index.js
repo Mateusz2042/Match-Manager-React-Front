@@ -10,23 +10,24 @@ class Button extends Component {
 
   render() {
     const {
-      id, value, style,
+      id, style, children, onClick,
     } = this.props;
 
     return (
-      <button style={style} type="button" id={id} value={value} />
+      <button onClick={onClick} style={style} type="button" id={id}>{children}</button>
     );
   }
 }
 
 Button.propTypes = {
   id: PropTypes.string.isRequired,
-  value: PropTypes.string,
+  children: PropTypes.shape(),
   style: PropTypes.shape(),
+  onClick: PropTypes.func.isRequired,
 };
 
 Button.defaultProps = {
-  value: '',
+  children: null,
   style: null,
 };
 

@@ -5,7 +5,6 @@ table {
 }
 
 td, th {
-  border: 1px solid #dddddd;
   text-align: center;
   padding: 8px;
 }
@@ -21,4 +20,8 @@ tr {
 .button-circle {
   background-color: red;
   border-radius: 100px;
+}
+
+.margin_top {
+  margin-top: 30px;
 }
