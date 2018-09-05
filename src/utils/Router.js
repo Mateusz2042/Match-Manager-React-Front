@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 import HomeComponent from '../containers/home';
 import NavBar from '../components/navbar';
 import PlayersScenes from './scenes/players';

@@ -1,0 +1,15 @@
+{
+  "navbar": {
+      "match_manager_title": "Menedżer piłkarzyków",
+      "players": "Gracze",
+      "teams": "Drużyny",
+      "matches": "Mecze"
+  },
+  "player_data": {
+    "first_name": "Imię",
+    "last_name": "Nazwisko",
+    "nick_name": "Pseudonim",
+    "age": "Wiek",
+    "sex": "Płeć"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "navbar": {
+      "match_manager_title": "Match Manager",
+      "players": "Players",
+      "teams": "Teams",
+      "matches": "Matches"
+  },
+  "player_data": {
+    "first_name": "First name",
+    "last_name": "Last name",
+    "nick_name": "Nick name",
+    "age": "Age",
+    "sex": "Sex"
+  }
+}

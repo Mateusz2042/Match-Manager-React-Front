@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { translate } from 'react-i18next';
 
 import './styles.css';
 import { ButtonEdit, ButtonDetails, ButtonDelete } from '../../../components/button/crudButtons';
@@ -65,16 +67,18 @@ class ListPlayers extends Component {
   ))
 
   render() {
+    const { t } = this.props;
+
     return (
       <div className="margin_top">
         {this.state.isModalVisible && <Modal />}
         <table>
           <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Nick Name</th>
-            <th>Age</th>
-            <th>Sex</th>
+            <th>{t('player_data.first_name')}</th>
+            <th>{t('player_data.last_name')}</th>
+            <th>{t('player_data.nick_name')}</th>
+            <th>{t('player_data.age')}</th>
+            <th>{t('player_data.sex')}</th>
             <th>{' '}</th>
             <th>{' '}</th>
             <th>{' '}</th>
@@ -86,4 +90,8 @@ class ListPlayers extends Component {
   }
 }
 
-export default ListPlayers;
+ListPlayers.propTypes = {
+  t: PropTypes.func.isRequired,
+};
+
+export default translate('common')(ListPlayers);
