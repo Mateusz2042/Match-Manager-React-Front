@@ -17,7 +17,7 @@ class Navbar extends Component {
     return (
       <nav>
         <div className="title">
-          <Link to="/"><NavTitle id="MatchManager" title="MatchManager" htmlFor="MatchManager" /></Link>
+          <Link to="/"><NavTitle id="MatchManager" title="Match Manager" htmlFor="MatchManager" /></Link>
         </div>
         <div className="div-links">
           <Link className="links" to="/players-list">Players</Link>
